@@ -1,0 +1,99 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  <head>
+    <style>
+    body{
+      background-image:url("imagen.jpeg")
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+</head>
+
+  header {
+    background-color: #244ed6da;
+    color: hsla(175, 97%, 58%, 0.781);
+    padding: 10px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .LOGO{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #95daf5;
+    text-decoration: Arial;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #6fb2d1;
+  }
+  
+  .intro p {
+    margin-bottom: 15px;
+    color: #5ae7a1;
+  }
+  
+  .mascotas-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0;
+  }
+  
+  .mascotas-list li {
+    text-align: center;
+  }
+  
+  .mascotas-list button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #2e4eb6c7;
+    background-color: #a2fa50dc;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .mascotas-list button:hover {
+    background-color: #087a0d;
+  }
+  
+  /* Estilo del pie de página */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0bc7bd;
+    color: #70acfa;
+  }
+  
